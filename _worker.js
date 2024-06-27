@@ -56,9 +56,9 @@ let EndPS = '';//节点名备注内容
 let 协议类型 = 'VLESS';
 let FileName = 'WorkerVless2sub';
 let SUBUpdateTime = 0; 
-let total = 0;//PB
+let total = 100;//PB
 //let timestamp = now;
-let timestamp = 0;//2099-12-31//4102329600000
+let timestamp = 4102329600000;//2099-12-31//4102329600000
 const regex = /^(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}|\[.*\]):?(\d+)?#?(.*)?$/;
 // 虚假uuid和hostname，用于发送给配置生成服务
 let fakeUserID ;
